@@ -7,3 +7,9 @@ puts "   |   |   "
 puts "-----------"
 puts "   |   |   "
 end
+
+def display_board (board=[" ", " ", " ", " ", " ", " ", " ", " ", " "])
+  
+  puts "O:#{board[0]},X:#{board[1]},X:#{board[4]},X:#{board[6]},O: #{board[7]}"
+end
+
